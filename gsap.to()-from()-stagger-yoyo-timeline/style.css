@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: white;
+}
+::-webkit-scrollbar {
+  display: none; 
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+}
+
+
+
+.hero{
+    height: 100%;
+    width:100%;
+    color: white;
+    font-size: large;
+}
+
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: maroon;
+
+}
+
+#box1{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(62, 211, 211);
+    
+}
+
+.hero3{
+    display: flex;
+    justify-content: space-between;
+    padding : 20px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+
+}
+.center-text{
+    position: absolute;
+top:250%;
+left:50%;
+transform: translate(-50%,-50%);
+font-size: 100px;
+white-space: nowrap;
+}
