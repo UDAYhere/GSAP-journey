@@ -36,6 +36,7 @@ tl.from("h2",{
     y:20,
     duration:0.5,
     delay:0.5,
+    scrollTrigger:"h2",
 })
 
 tl.from("h4",{
